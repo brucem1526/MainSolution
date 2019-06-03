@@ -1,0 +1,8 @@
+C:\code\VisualStudioProjects\MainSolution\CreateMockData_OpenBanking\bin\Debug\CreateMockData_OpenBanking.exe.config
+C:\code\VisualStudioProjects\MainSolution\CreateMockData_OpenBanking\bin\Debug\CreateMockData_OpenBanking.exe
+C:\code\VisualStudioProjects\MainSolution\CreateMockData_OpenBanking\bin\Debug\CreateMockData_OpenBanking.pdb
+C:\code\VisualStudioProjects\MainSolution\CreateMockData_OpenBanking\bin\Debug\Dapper.dll
+C:\code\VisualStudioProjects\MainSolution\CreateMockData_OpenBanking\bin\Debug\Dapper.xml
+C:\code\VisualStudioProjects\MainSolution\CreateMockData_OpenBanking\obj\Debug\CreateMockData_OpenBanking.csprojResolveAssemblyReference.cache
+C:\code\VisualStudioProjects\MainSolution\CreateMockData_OpenBanking\obj\Debug\CreateMockData_OpenBanking.exe
+C:\code\VisualStudioProjects\MainSolution\CreateMockData_OpenBanking\obj\Debug\CreateMockData_OpenBanking.pdb
