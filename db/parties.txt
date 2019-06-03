@@ -1,0 +1,35 @@
+USE [OpenBanking]
+GO
+
+/****** Object:  Table [dbo].[Parties]    Script Date: 03/06/2019 10:12:58 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Parties](
+	[PartyId] [int] IDENTITY(1,1) NOT NULL,
+	[PartyNumber] [nvarchar](35) NOT NULL,
+	[PartyType] [nvarchar](32) NULL,
+	[Name] [nvarchar](70) NOT NULL,
+	[EmailAddress] [nvarchar](256) NULL,
+	[Phone] [nvarchar](16) NULL,
+	[Mobile] [nvarchar](16) NULL,
+	[Address] [nvarchar](1024) NULL,
+	[AddressType] [nvarchar](35) NULL,
+	[AddressLine] [nvarchar](70) NULL,
+	[StreetName] [nvarchar](70) NULL,
+	[BuildingNumber] [nvarchar](16) NULL,
+	[PostCode] [nvarchar](16) NULL,
+	[TownName] [nvarchar](35) NULL,
+	[CountrySubDivision] [nvarchar](35) NULL,
+	[Country] [nvarchar](32) NULL,
+ CONSTRAINT [PK_Parties] PRIMARY KEY CLUSTERED 
+(
+	[PartyId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
